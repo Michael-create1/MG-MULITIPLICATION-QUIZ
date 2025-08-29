@@ -1,6 +1,8 @@
 body{
     margin: 0;
     padding: 0;
+    overflow-y: auto;
+    scroll-behavior: smooth;
     background: yellow;
     align-items: center;
     text-align: center;
@@ -17,6 +19,9 @@ input{
     text-align: center;
     align-items: center;
     justify-content: center;
+}
+input:focus{
+    margin-bottom: 200px;
 }
 button{
     margin-top: 5px;
@@ -55,6 +60,3 @@ div{
     height: 70%;
    
 }
-/* num1-el{
-    display: flex;
-} */
