@@ -21,7 +21,7 @@ input{
     justify-content: center;
 }
 input:focus{
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 button{
     margin-top: 5px;
@@ -60,3 +60,4 @@ div{
     height: 70%;
    
 }
+
